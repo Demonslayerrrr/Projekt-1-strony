@@ -1,0 +1,103 @@
+body {
+    margin: 0px;
+    background-image: url(/assets/bg3.jpg);
+    background-color: rgba(0, 0, 0, 0.533);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  img {
+    max-width: 100%;
+  }
+  
+  button,
+  input {
+    background: none;
+    border: none;
+    padding: 0;
+    color: rgb(222, 220, 220);
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  span {
+    font-family: "Segoe UI", sans-serif;
+    color: gold;
+    scale: 0.8;
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .home{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+
+  .slider-frames {
+    overflow: hidden;
+    width: 1200px;
+    height: 800px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+  
+  
+  .slide-images {
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+    display: flex;
+  }
+  .img-container {
+    height: 800px;
+    width: 1200px;
+    position: relative;
+  }
+  
+  @keyframes slide_animation {
+    0% {
+      right: 0px;
+    }
+    10% {
+      right: 0px;
+    }
+    20% {
+      right: 1200px;
+    }
+    30% {
+      right: 1200px;
+    }
+    40% {
+      right: 2400px;
+    }
+    50% {
+      right: 2400px;
+    }
+    60% {
+      right: 1200px;
+    }
+    70% {
+      right: 1200px;
+    }
+    80% {
+      right: 0px;
+    }
+    90% {
+      right: 0px;
+    }
+    100% {
+      right: 0px;
+    }
+  }

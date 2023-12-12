@@ -1,0 +1,163 @@
+body {
+  margin: 0px;
+  background-image: url(/assets/bg2.jpg);
+  background-color: rgba(0, 0, 0, 0.533);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+  max-width: 100%;
+}
+
+button,
+input {
+  background: none;
+  border: none;
+  padding: 0;
+  color: rgb(222, 220, 220);
+}
+
+h3 {
+  margin: 0;
+  color: rgb(222, 220, 220);
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+}
+
+h2 {
+  margin: 0;
+  color: rgb(222, 220, 220);
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  font-family: "Segoe UI", sans-serif;
+  color: gold;
+  scale: 0.8;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+  gap: 100px;
+  height: 100vh;
+}
+
+.premium.label {
+  display: flex;
+  justify-content: center;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 15px;
+}
+
+.premium.bg {
+  background-color: #444844;
+  outline: 8px solid #818181;
+  border-radius: 4rem;
+  width: 300px;
+  padding: 1rem 0.5rem;
+  transition: 0.3s;
+}
+
+
+.premium.bg:hover{
+    outline-offset: .6rem;
+    transition: 0.3s;
+}
+
+
+.buttons > :nth-child(1) {
+  color: gold;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.buttons > :nth-child(1):hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: default;
+}
+
+.second-button {
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+.second-button > button {
+  color: gold;
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+}
+
+.second-button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: default;
+}
+
+.home{
+
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.napis {
+	-webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          font-family:  "Playfair Display", serif;
+          display: flex;
+          justify-content: center;
+          font-size: 30px;
+          color: whitesmoke;
+}
+
+
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}

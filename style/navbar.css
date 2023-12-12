@@ -1,0 +1,57 @@
+
+body >header>nav{
+    padding-bottom:20px ;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    padding:5px 20px;
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+  flex: 1;
+}
+.logo {
+  font-size: 30px;  
+  font-family: "Playfair Display", serif;
+  margin-left: 0px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+.nav.button {
+  margin-top: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: cen;
+  color: rgb(219, 219, 219);
+}
+
+
+.profile.logo{
+  display: flex;
+  justify-content: end;
+  margin-top: 25px;
+  color: rgb(196, 170, 86);
+}
+
+
+
+.sign-in{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.sign-in-link{
+  display: flex;
+  gap: 5px;
+}
+

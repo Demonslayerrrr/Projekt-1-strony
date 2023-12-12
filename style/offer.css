@@ -1,0 +1,145 @@
+main{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+}
+
+.offer{
+    margin: 50px 50px ;    
+    display: flex;
+    flex-direction: column; 
+}
+
+.offer:hover .offer-bg{
+    background-color: #333633;
+    transform: scale(1.1);
+    transition: 0.15s ease-in-out;
+    cursor: default;
+}
+
+.offer:hover .text>h1{
+    letter-spacing: 3px;
+    transition: 0.3s ease-in-out;
+}
+.line{
+    flex-basis: auto;
+    color: white;
+    size: 10px;
+}
+
+
+
+.offer-img{
+    flex-basis: auto;
+}
+
+.rank{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-right: 7px;
+}
+
+
+.offer-bg{
+    height: auto;
+    width: 400px;
+    background-color: #444844;
+    position: relative;
+
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+
+    
+
+}
+
+.buttons > :nth-child(1){
+    color: rgb(181, 158, 81);
+    font-size: 20px;
+    font-family: "Playfair Display", serif  ;
+    font-weight: bolder;
+    transition: 0.3s;
+
+
+
+}
+
+.second-button{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    transition: 0.3s;
+
+
+}
+
+.buttons > :nth-child(1):hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: default;
+}
+
+.second-button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: default;
+}
+.buttons > :nth-child(2)> button{
+    color: rgb(181, 158, 81);
+    font-family: "Playfair Display", serif  ;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: default;
+
+}
+.buttons > :nth-child(2)> span{
+    color: rgb(181, 158, 81);
+    cursor: default;
+
+}
+
+
+
+
+
+.text > h1{
+    color: rgb(200, 200, 200);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;    
+}
+
+.text>h2{
+    color: rgb(220,220,220);
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 15px;
+
+    
+
+}
+
+.text > span{
+    color: rgb(190, 190, 190);
+}
+
+.rank > img{
+    width: 30px;
+    height: 20px;
+}
+
+.rank > span{
+    color: rgb(235, 103, 103);
+}
+
